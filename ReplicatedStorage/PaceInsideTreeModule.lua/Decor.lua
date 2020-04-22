@@ -25,7 +25,7 @@ end
 
 function module.New_Branch(Previous, Size, CF)
 	local PreviousSize = Previous.Size.Y/2
-	local Part			= script.Cylinder:Clone()
+	local Part			= script.Parent.Cylinder:Clone()
 	Part.Anchored 		= true
 	Part.Size 			= Size
 	Part.Color 			= Color3.fromRGB(86, 66, 54)
